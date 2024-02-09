@@ -12,6 +12,14 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
+  margin-top: 82px;
+}
+
+.p-month p {
+  font-size: 18px;
+  color: #161c2d;
+  font-family: Gilroy;
+  font-weight: 100;
 }
 .p-title h1 {
   font-family: Gilroy;
@@ -24,10 +32,215 @@
   font-weight: normal;
   font-style: normal;
 }
-
-.p-title p {
+.save {
+  color: #473bf0;
+  border: none;
+  padding: 8px 20px 8px 20px;
+  border-radius: 20.5px;
+  font-family: Gilroy;
+  font-size: 16px;
+  background: #e6e5f7;
+}
+.p-heading p {
   font-family: Gilroy;
   font-size: 16px;
   color: gray;
   font-weight: normal; /* Ensure Gilroy Regular is used */
+}
+
+/* 
+ */
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  gap: 26px;
+}
+
+.card1 {
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding-right: 35px;
+}
+.card3 {
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding-right: 35px;
+}
+.card2 {
+  background-color: #045e5e;
+  border-radius: 10px;
+  padding-left: 20px;
+  color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding-right: 35px;
+}
+.c-title {
+  color: #045e5e;
+
+  font-family: Gilroy-Bold;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.c-des {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  color: #777e90;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+.c-bold {
+  color: #1f2a37;
+
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  text-transform: capitalize;
+}
+.c-list {
+  display: flex;
+  gap: 15px;
+  margin-top: -26px;
+  justify-content: space-between;
+}
+.c-list ul {
+  list-style: none;
+}
+.c-list li {
+  margin-left: -39px;
+  color: #777e90;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/*  */
+.c-des2 {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  color: #9dc9c9;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+.c-bold2 {
+  color: white;
+
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  text-transform: capitalize;
+}
+.c-list2 {
+  display: flex;
+  gap: 15px;
+  margin-top: -26px;
+}
+.c-list2 ul {
+  list-style: none;
+}
+.c-list2 li {
+  margin-left: -39px;
+  color: white;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.card3 .c-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+
+.card2 .c-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 90px;
+}
+.card1 .c-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 22px;
+  margin-left: 90px;
+}
+
+.styled-button {
+  width: 359px;
+  height: 59px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #045e5e;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 20px;
+}
+.styled-button1 {
+  width: 359px;
+  height: 59px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #045e5e;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 20px;
+}
+.styled-button2 {
+  width: 359px;
+  height: 59px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: white;
+  color: #045e5e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 20px;
 }
