@@ -307,8 +307,9 @@
   justify-content: center;
   align-items: center;
   background-color: #f7f7f7;
-  padding-top: 150px;
-  /* gap: 1075px; */
+  margin-top: -160px;
+
+  gap: 600px;
 }
 .other h1 {
   color: #1f2a37;
@@ -319,4 +320,35 @@
   font-weight: 400;
   line-height: 60px; /* 150% */
   text-transform: capitalize;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr); /* Two rows */
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 20px; /* Adjust the gap between items */
+  margin-top: 420px;
+}
+
+.grid-item3 {
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+.grid-item4 {
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+.grid-item1 {
+  padding: 20px;
+  text-align: left;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.grid-item2 {
+  padding: 20px;
+  text-align: left;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
