@@ -133,6 +133,16 @@
 }
 
 /*  */
+.c-title2 {
+  color: white;
+
+  font-family: Gilroy-Bold;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
 .c-des2 {
   font-family: Gilroy;
   font-size: 16px;
@@ -243,4 +253,57 @@
   cursor: pointer;
   border: none;
   margin-bottom: 20px;
+}
+
+.c-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: #f7f7f7;
+  margin: 0;
+}
+
+.c-futter {
+  text-align: center;
+  margin-top: 20px;
+  background-color: white;
+  padding: 16px; /* Adjust padding based on your design */
+  border-radius: 14.5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional box shadow for better visual appeal */
+
+  padding-right: 438px;
+  padding-left: 438px;
+}
+
+.c-futter p {
+  color: #1f2a37;
+
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.trusted-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding-top: 150px;
+}
+.trusted h1 {
+  color: #1f2a37;
+
+  font-family: Gilroy;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 95px;
+}
+.other-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding-top: 150px;
 }
