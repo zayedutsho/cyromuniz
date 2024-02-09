@@ -1,3 +1,33 @@
 .main {
+}
+.container {
+  text-align: center;
+}
+.pricing {
   background-color: #f7f7f7;
+}
+.p-month {
+  display: flex;
+
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.p-title h1 {
+  font-family: Gilroy;
+  font-size: 60px;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/gilroy/Gilroy-Bold.ttf") format("truetype"),
+    url("../fonts/gilroy/Gilroy-Regular.ttf") format("truetype"); /* Replace with the correct path */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.p-title p {
+  font-family: Gilroy;
+  font-size: 16px;
+  color: gray;
+  font-weight: normal; /* Ensure Gilroy Regular is used */
 }
