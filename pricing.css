@@ -1,32 +1,76 @@
-/* * {
+* {
   margin: 0px;
   background-color: #f7f7f7;
-} */
+}
+
+.nav__class {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 135px;
+  position: sticky;
+}
+
+.logo__class {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  cursor: pointer;
+}
+
+.items__class {
+  display: flex;
+  align-items: center;
+  color: #1f2a37;
+  gap: 40px;
+  font-size: 16px;
+  font-family: Gilroy-Medium;
+}
+
+.btn__try-free {
+  padding: 16px 40px;
+  border-radius: 100px;
+  background-color: #045e5e;
+  color: #ffffff;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  position: absolute;
+  z-index: 101;
+  top: 0;
+  right: 0;
+  margin: 25px 135px;
+  font-family: Gilroy-Bold;
+}
+
 .container {
   text-align: center;
 }
 .pricing {
   background-color: #f7f7f7;
+  margin-top: 85px;
 }
+
 .p-month {
   display: flex;
-
-  gap: 20px;
+  gap: 16px;
   align-items: center;
   justify-content: center;
   margin-top: 82px;
+  margin-bottom: 50px
 }
 
 .p-month p {
   font-size: 18px;
   color: #161c2d;
   font-family: Gilroy-Regular;
-  font-weight: 100;
 }
+
 .p-heading h1 {
   font-family: Gilroy-Bold;
   font-size: 60px;
 }
+
 @font-face {
   font-family: "Gilroy-Regular";
   src: url("../fonts/gilroy/Gilroy-Regular.ttf") format("truetype");
@@ -55,26 +99,28 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "Gilroy-ExtraBold";
-  src: url("../fonts/gilroyNew/Gilroy-ExtraBold.ttf") format("truetype");
-  font-weight: bold;
+  font-family: "Gilroy-Regular";
+  src: url("./fonts/gilroyNew/Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal;
 }
+
 .save {
   color: #473bf0;
   border: none;
   padding: 8px 20px 8px 20px;
   border-radius: 20.5px;
-  font-family: Gilroy;
-  font-size: 14px;
+  font-family: Gilroy-Bold;
+  font-size: 13px;
   background: #e6e5f7;
   font-family: Gilroy-Bold;
 }
+
 .p-heading p {
   font-family: Gilroy-Regular;
   font-size: 16px;
   color: gray;
-  font-weight: normal; /* Ensure Gilroy Regular is used */
+  margin-top: 24px;
 }
 
 /* 
@@ -111,13 +157,12 @@
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding-right: 35px;
 }
+
 .c-title {
   color: #045e5e;
-
   font-family: Gilroy-Bold;
-  font-size: 14px;
+  font-size: 13px;
   font-style: normal;
-  font-weight: 400;
   margin-bottom: 40px;
   margin-top: 40px;
 }
@@ -134,37 +179,35 @@
 }
 .c-bold {
   color: #1f2a37;
-
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Semibold;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px; /* 175% */
-  text-transform: capitalize;
 }
+
 .c-list {
   display: flex;
   gap: 15px;
-  margin-top: -26px;
   justify-content: space-between;
+  margin-top: 16px;
 }
 .c-list ul {
   list-style: none;
 }
 .c-list li {
-  margin-left: -39px;
+  margin-left: -40px;
   color: #777e90;
   font-family: Gilroy-Regular;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
+  margin-top: 12px;
+}
+
+.c-list span {
+  background-color: #ffffff;
+  margin-left: 12px;
 }
 
 /*  */
 .c-title2 {
   color: white;
-
   font-family: Gilroy-Bold;
   font-size: 14px;
   font-style: normal;
@@ -173,7 +216,7 @@
   margin-top: 40px;
 }
 .c-des2 {
-  font-family: Gilroy;
+  font-family: Gilroy-Regular;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -184,8 +227,7 @@
 }
 .c-bold2 {
   color: white;
-
-  font-family: Gilroy;
+  font-family: Gilroy-Semibold;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -195,19 +237,21 @@
 .c-list2 {
   display: flex;
   gap: 15px;
-  margin-top: -26px;
+  margin-top: 16px;
 }
+
 .c-list2 ul {
   list-style: none;
 }
 .c-list2 li {
-  margin-left: -39px;
+  margin-left: -40px;
   color: white;
-  font-family: Gilroy;
+  font-family: Gilroy-Regular;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
+  margin-top: 12px;
 }
 .card3 .c-btn {
   background-color: #007bff;
@@ -269,9 +313,11 @@
   align-items: center;
   cursor: pointer;
   border: none;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-size: 18px;
+  margin-top: 108px;
 }
+
 .styled-button2 {
   font-family: Gilroy-Bold;
   font-size: 18px;
@@ -300,58 +346,72 @@
 
 .c-futter {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 24px;
   background-color: white;
-  padding: 16px; /* Adjust padding based on your design */
+  padding-top: 16px;
+  padding-bottom: 16px;
   border-radius: 14.5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional box shadow for better visual appeal */
+  padding-right: 345px;
+  padding-left: 345px;
+}
 
-  padding-right: 438px;
-  padding-left: 438px;
+.see__pricing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+  background-color: #ffffff;
+  font-family: Gilroy-Semibold;
+}
+
+.see__pricing h1 {
+  font-size: 18px;
+  color: #045e5e;
 }
 
 .c-futter p {
   color: #1f2a37;
-
-  font-family: Gilroy;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
+  font-family: Gilroy-Semibold;
 }
+
 .trusted-container {
   display: flex;
   justify-content: center;
-  align-items: center;
   background-color: #f7f7f7;
-  padding-top: 150px;
+  margin-top: 150px;
+  margin-left: 80px;
 }
+
 .trusted h1 {
   color: #1f2a37;
-
   font-family: Gilroy-Bold;
   font-size: 80px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 95px;
 }
+
 .other-container {
   display: flex;
   justify-content: center;
-  align-items: center;
   background-color: #f7f7f7;
-  margin-top: -160px;
-
-  gap: 360px;
+  gap: 400px;
+  margin-left: 80px;
+  margin-top: 150px;
 }
+
+.other {
+  margin-left: 75px;
+}
+
+.other img {
+  margin-top: 30px;
+}
+
 .other h1 {
   color: #1f2a37;
-
   font-family: Gilroy-Bold;
   font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 60px; /* 150% */
   text-transform: capitalize;
 }
 
@@ -359,31 +419,29 @@
   display: grid;
   grid-template-rows: repeat(2, 1fr); /* Two rows */
   grid-template-columns: repeat(2, 1fr); /* Two columns */
-  gap: 20px; /* Adjust the gap between items */
-  margin-top: 420px;
+  gap: 40px; /* Adjust the gap between items */
 }
 
 .grid-item3 {
   padding: 20px;
   text-align: left;
-  border-bottom: 1px solid black;
 }
+
 .grid-item4 {
   padding: 20px;
   text-align: left;
-  border-bottom: 1px solid black;
 }
 .grid-item1 {
   padding: 20px;
   text-align: left;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 2px solid #045e5e;
+  border-bottom: 1px solid #045e5e;
 }
 .grid-item2 {
   padding: 20px;
   text-align: left;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid #045e5e;
+  border-bottom: 1px solid #045e5e;
 }
 .grid-item2 p {
   color: var(--Text-Dark, #292930);
@@ -405,21 +463,18 @@
   font-family: Gilroy-Medium;
   font-size: 24px;
 }
-.other {
-  margin-top: -180px;
-}
+
 .futter-container {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f7f7f7;
-  padding-top: 150px;
-  margin-left: -530px;
+  margin-top: 200px;
+  margin-left: -520px;
 }
 
 .Frequently {
   color: #045e5e;
-
   font-family: Gilroy-SemiBold;
   font-size: 16px;
   font-style: normal;
@@ -429,21 +484,16 @@
 }
 .futter h1 {
   color: #1f2a37;
-
   font-family: Gilroy-Bold;
   font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 58px;
-  letter-spacing: -1.8px;
+  margin-top: 12px;
 }
+
 .futter-des {
   color: #777e90;
   font-family: Gilroy-Regular;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
+  margin-top: 12px;
 }
 
 /*  */
@@ -452,8 +502,8 @@
   justify-content: center;
   align-items: center;
   background-color: #f7f7f7;
-
-  margin-left: -30px;
+  margin-top: 50px;
+  margin-left: 80px;
 }
 .accordion-container {
   width: 100%;
@@ -513,6 +563,15 @@
 
 .toggle-icon {
   font-size: 18px;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .item-number {
@@ -527,71 +586,53 @@
   line-height: normal;
 }
 
-/*  */
-
-.footer-price-container {
+.update__class {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  padding-top: 150px;
-  background-color: #f7f7f7;
-  padding-bottom: 150px;
 }
-.footer-price h1 {
-  color: #1f2a37;
-  text-align: center;
-  font-family: Gilroy-Bold;
+
+.update__class h1 {
   font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 58px; /* 120.833% */
-}
-
-.footer-price p {
-  color: var(--Neutrals-4, #777e90);
-  text-align: center;
-  font-family: Gilroy-Regular;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px; /* 175% */
-}
-.footer-price input {
+  color: #1f2a37;
+  font-family: Gilroy-Bold;
   margin-top: 40px;
-  border-radius: 100px;
-  color: #6b7280;
-  font-family: Gilroy-Regular;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-align: start;
-  width: 499px;
-  height: 60px;
-  flex-shrink: 0;
-  border: none;
-  padding-left: 16px;
-  color: #333;
-  font-size: 16px;
-  box-sizing: border-box;
-  border: none;
 }
 
-.footer-price button {
+.update__class h3 {
+  color: #777e90;
+  font-family: Gilroy-Regular;
+  margin-top: 16px;
+}
+
+.update__class-info {
+  text-align: center;
+}
+
+.input__class {
+  margin-top: 40px;
+  margin-bottom: 58px;
+  padding: 7px 7px 7px 24px;
+  width: 500px;
+  height: 55px;
   border: none;
   border-radius: 100px;
-  margin-left: -65px;
-  text-align: center;
-  background-color: #045e5e;
-  width: 166px;
-  align-items: center;
-  height: 50px;
+  background-color: #ffffff;
+  font-family: Gilroy-Regular;
 }
-.footer-price button span {
-  margin-left: 25px;
-  color: #fff;
-  font-family: Gilroy-SemiBold;
-  font-size: 16px;
-  font-style: normal;
+
+.btn__update {
+  position: absolute;
+  right: 15px;
+  top: 45%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: #045e5e;
+  color: #ffffff;
+  padding: 15px 30px;
+  border-radius: 100px;
+  font-size: 17px;
+  font-family: Gilroy-Semibold;
+  cursor: pointer;
+  width: 166px;
 }
