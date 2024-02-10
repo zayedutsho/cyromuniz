@@ -57,7 +57,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 82px;
-  margin-bottom: 50px;
+  margin-bottom: 50px
 }
 
 .p-month p {
@@ -227,7 +227,6 @@
 }
 .c-bold2 {
   color: white;
-
   font-family: Gilroy-Semibold;
   font-size: 16px;
   font-style: normal;
@@ -427,6 +426,7 @@
   padding: 20px;
   text-align: left;
 }
+
 .grid-item4 {
   padding: 20px;
   text-align: left;
