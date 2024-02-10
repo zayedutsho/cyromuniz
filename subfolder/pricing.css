@@ -20,18 +20,38 @@
 .p-month p {
   font-size: 18px;
   color: #161c2d;
-  font-family: Gilroy;
+  font-family: Gilroy-Regular;
   font-weight: 100;
 }
-.p-title h1 {
-  font-family: Gilroy;
+.p-heading h1 {
+  font-family: Gilroy-Bold;
   font-size: 60px;
 }
 @font-face {
-  font-family: "Gilroy";
-  src: url("../fonts/gilroy/Gilroy-Bold.ttf") format("truetype"),
-    url("../fonts/gilroy/Gilroy-Regular.ttf") format("truetype"); /* Replace with the correct path */
+  font-family: "Gilroy-Regular";
+  src: url("../fonts/gilroy/Gilroy-Regular.ttf") format("truetype");
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/gilroyNew/Gilroy-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Semibold";
+  src: url("../fonts/gilroyNew/Gilroy-SemiBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../fonts/gilroyNew/Gilroy-Bold.ttf") format("truetype");
+  font-weight: bold;
   font-style: normal;
 }
 .save {
@@ -40,11 +60,12 @@
   padding: 8px 20px 8px 20px;
   border-radius: 20.5px;
   font-family: Gilroy;
-  font-size: 16px;
+  font-size: 14px;
   background: #e6e5f7;
+  font-family: Gilroy-Bold;
 }
 .p-heading p {
-  font-family: Gilroy;
+  font-family: Gilroy-Regular;
   font-size: 16px;
   color: gray;
   font-weight: normal; /* Ensure Gilroy Regular is used */
@@ -88,7 +109,7 @@
   color: #045e5e;
 
   font-family: Gilroy-Bold;
-  font-size: 17px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   margin-bottom: 40px;
@@ -96,7 +117,7 @@
 }
 
 .c-des {
-  font-family: Gilroy;
+  font-family: Gilroy-Regular;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -108,7 +129,7 @@
 .c-bold {
   color: #1f2a37;
 
-  font-family: Gilroy;
+  font-family: Gilroy-Bold;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -127,7 +148,7 @@
 .c-list li {
   margin-left: -39px;
   color: #777e90;
-  font-family: Gilroy;
+  font-family: Gilroy-Regular;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -139,7 +160,7 @@
   color: white;
 
   font-family: Gilroy-Bold;
-  font-size: 17px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   margin-bottom: 40px;
@@ -215,6 +236,8 @@
 }
 
 .styled-button {
+  font-family: Gilroy-Bold;
+  font-size: 18px;
   width: 359px;
   height: 59px;
   flex-shrink: 0;
@@ -229,9 +252,9 @@
   margin-bottom: 20px;
 }
 .styled-button1 {
+  font-family: Gilroy-Bold;
   width: 359px;
   height: 59px;
-  flex-shrink: 0;
   border-radius: 100px;
   background: #045e5e;
   color: #fff;
@@ -241,8 +264,12 @@
   cursor: pointer;
   border: none;
   margin-bottom: 20px;
+  font-size: 18px;
 }
 .styled-button2 {
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+
   width: 359px;
   height: 59px;
   flex-shrink: 0;
@@ -296,7 +323,7 @@
 .trusted h1 {
   color: #1f2a37;
 
-  font-family: Gilroy;
+  font-family: Gilroy-Bold;
   font-size: 80px;
   font-style: normal;
   font-weight: 400;
@@ -309,12 +336,12 @@
   background-color: #f7f7f7;
   margin-top: -160px;
 
-  gap: 600px;
+  gap: 360px;
 }
 .other h1 {
   color: #1f2a37;
 
-  font-family: Gilroy;
+  font-family: Gilroy-Bold;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -351,4 +378,64 @@
   text-align: left;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+}
+.grid-item2 p {
+  color: var(--Text-Dark, #292930);
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+}
+.grid-item1 p {
+  color: var(--Text-Dark, #292930);
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+}
+.grid-item3 p {
+  color: var(--Text-Dark, #292930);
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+}
+.grid-item4 p {
+  color: var(--Text-Dark, #292930);
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+}
+.other {
+  margin-top: -180px;
+}
+.futter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding-top: 150px;
+  margin-left: -530px;
+}
+
+.Frequently {
+  color: #045e5e;
+
+  font-family: Gilroy-SemiBold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.futter h1 {
+  color: #1f2a37;
+
+  font-family: Gilroy-Bold;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: -1.8px;
+}
+.futter-des {
+  color: #777e90;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
 }
