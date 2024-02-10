@@ -380,6 +380,22 @@
   font-family: Gilroy-Bold;
 }
 
+.collaborate__class {
+  background-color: #045e5e !important;
+  height: 770px;
+  position: relative;
+}
+
+.collaborate__class img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.collaborate__class h2 {
+  background-color: #045e5e;
+}
+
 .news__class {
   padding: 150px 135px;
   display: flex;
