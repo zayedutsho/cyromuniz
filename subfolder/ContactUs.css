@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+/*  */
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("../fonts/gilroy/Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/gilroyNew/Gilroy-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Semibold";
+  src: url("../fonts/gilroyNew/Gilroy-SemiBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../fonts/gilroyNew/Gilroy-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../fonts/gilroyNew/Gilroy-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/*  */
+.Contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 102px;
+}
+.contactDes img {
+  margin-top: 54px;
+}
+.contactDes h1 {
+  color: #161c2d;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 65px; /* 108.333% */
+  text-transform: capitalize;
+}
+.contactDes p {
+  color: var(--Neutrals-4, #777e90);
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 24px; /* 175% */
+}
+.info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 102px;
+}
+.info-sub {
+  display: flex;
+  gap: 24px;
+}
+.info-des h2 {
+  margin-top: 30px;
+  color: #1f2a37;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 31.2px */
+  text-transform: capitalize;
+}
+.info-des p {
+  margin-top: 14px;
+  color: var(--Neutrals-4, #777e90);
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.info-des h3 {
+  margin-top: 30px;
+  color: #045e5e;
+  text-align: center;
+
+  /* Headings 2/H2 - 16 Bold - Lh 130% */
+  font-family: Gilroy-SemiBold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 20.8px */
+  text-transform: capitalize;
+}
+.product-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-container h1 {
+  color: #161c2d;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 65px; /* 108.333% */
+  text-transform: capitalize;
+  margin-top: 177px;
+  text-align: center;
+}
+.card2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 56px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 16px; /* Adjust the gap between items */
+  border: none;
+}
+
+.grid-item {
+  border: none;
+
+  width: 809px;
+  height: 168px; /* Adjust the height of each item */
+  border-radius: 24px;
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 10px; /* Ensure padding is included in the width */
+  background-color: white;
+}
+
+.grid-item div {
+  background-color: white;
+}
+.grid-item div h1 {
+  background-color: white;
+  color: #1f2a37;
+  font-family: Gilroy-Bold;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 152.381% */
+  text-transform: capitalize;
+}
+.grid-item div p {
+  color: var(--Neutrals-4, #777e90);
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-top: 14px;
+  background-color: white;
+}
+
+.need-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 245px;
+  margin-bottom: 56px;
+}
+.need-des h1 {
+  color: #161c2d;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 65px; /* 108.333% */
+}
+.need-des P {
+  color: var(--Neutrals-4, #777e90);
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-top: 30px;
+}
+
+/*  */
+/* styles.css */
+/* styles.css */
+.footer {
+  width: 996px;
+  height: 730px;
+  padding: 48px 55px;
+  background-color: red;
+}
+
+.form-container {
+  display: flex;
+
+  padding: 48px 55px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 16px; /* Adjust the gap between items */
+  padding: 75px;
+  background-color: white;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.input-container label {
+  margin-bottom: 8px;
+  background-color: white;
+  color: #1f2a37;
+  font-family: Gilroy-SemiBold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 20.8px */
+  text-transform: capitalize;
+}
+
+.input-container input {
+  width: 433px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  border: none;
+  color: #1f2a37;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+}
+
+input[type="text"][placeholder="Additional Text Input"] {
+  width: 886px;
+  grid-column: span 2; /* Make it span 2 columns */
+}
+
+.terms-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -28px;
+  margin-top: -93px;
+  gap: 314px;
+  background-color: white;
+}
+
+.terms-checkbox input {
+  margin-right: 8px;
+  background-color: white;
+}
+.terms-checkbox div {
+  background-color: white;
+}
+.terms-checkbox span {
+  background-color: white;
+  color: #1b2124;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 20.8px */
+}
+.terms-checkbox button {
+  padding: 15px 42px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 100px;
+  background: #045e5e;
+  color: #fff;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  font-style: normal;
+
+  text-transform: capitalize;
+}
