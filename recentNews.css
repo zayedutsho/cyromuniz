@@ -109,10 +109,11 @@
   font-family: Gilroy-Semibold;
 }
 
-.feature__class h3 {
+.feature__class p {
   color: #777e90;
   font-family: Gilroy-Regular;
-  margin-top: 24px;
+  margin-top: 16px;
+  line-height: 28px;
 }
 
 .cards__class {
@@ -193,10 +194,11 @@
   margin-top: 40px;
 }
 
-.update__class h3 {
+.update__class p {
   color: #777e90;
   font-family: Gilroy-Regular;
   margin-top: 16px;
+  line-height: 28px;
 }
 
 .update__class-info {

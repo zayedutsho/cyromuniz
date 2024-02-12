@@ -590,10 +590,11 @@ demand__class p {
   margin-top: 40px;
 }
 
-.update__class h3 {
+.update__class p {
   color: #777e90;
   font-family: Gilroy-Regular;
   margin-top: 16px;
+  line-height: 28px;
 }
 
 .update__class-info {
