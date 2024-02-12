@@ -490,13 +490,14 @@ demand__class p {
   margin-left: 134px;
 }
 
-.tick__class h3 {
+.tick__class p {
   position: absolute;
   left: 0;
   margin-top: 580px;
   margin-left: 170px;
   font-size: 18px;
   font-family: Gilroy-Medium;
+  color: #ffffff;
 }
 
 .calculate h2 {
