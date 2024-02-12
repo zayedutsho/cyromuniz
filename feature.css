@@ -381,6 +381,11 @@
   max-width: 1370px;
 }
 
+.Frequently {
+  font-family: Gilroy-Semibold;
+  color: #045e5e;
+}
+
 .accordion-item {
   border-radius: 16px;
   border: 1px solid #e7e9ed;
