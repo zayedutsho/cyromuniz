@@ -103,7 +103,7 @@
   text-align: center;
 }
 
-.feature__class h3 {
+.feature__class p {
   color: #777e90;
   font-family: Gilroy-Regular;
   text-align: center;
@@ -161,7 +161,7 @@
   z-index: 100;
 }
 
-.com__feature h3 {
+.com__feature p {
   font-family: Gilroy-Regular;
   color: #777e90;
   line-height: 28px;
