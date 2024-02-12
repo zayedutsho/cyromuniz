@@ -31,6 +31,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("./fonts/gilroyNew/Gilroy-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 .nav__class {
   display: flex;
   align-items: center;
@@ -42,6 +49,15 @@
 .nav__class a {
   text-decoration: none;
   color: #1f2a37;
+}
+
+.nav__class .items__class a:hover,
+.nav__class .items__class a:focus {
+  font-family: Gilroy-ExtraBold;
+}
+
+.nav__class .items__class .nav-link.selected {
+  font-family: Gilroy-ExtraBold !important;
 }
 
 .logo__class {

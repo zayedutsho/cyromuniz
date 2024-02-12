@@ -16,6 +16,15 @@
   color: #1f2a37;
 }
 
+.nav__class .items__class a:hover,
+.nav__class .items__class a:focus {
+  font-family: Gilroy-ExtraBold;
+}
+
+.nav__class .items__class .nav-link.selected {
+  font-family: Gilroy-ExtraBold !important;
+}
+
 .logo__class {
   display: flex;
   align-items: center;

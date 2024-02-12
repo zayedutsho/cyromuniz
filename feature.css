@@ -31,6 +31,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("./fonts/gilroyNew/Gilroy-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 .nav__class {
   display: flex;
   align-items: center;
@@ -42,6 +49,15 @@
 .nav__class a {
   text-decoration: none;
   color: #1f2a37;
+}
+
+.nav__class .items__class a:hover,
+.nav__class .items__class a:focus {
+  font-family: Gilroy-ExtraBold;
+}
+
+.nav__class .items__class .nav-link.selected {
+  font-family: Gilroy-ExtraBold !important;
 }
 
 .logo__class {
@@ -465,35 +481,35 @@
 }
 
 .left-feature {
-  top: 40%;
+  top: 600px;
   left: 0;
   position: absolute;
   z-index: 99;
 }
 
 .right-feature {
-  top: 130%;
+  top: 1400px;
   right: 0;
   position: absolute;
   z-index: 99;
 }
 
 .left1-feature {
-  top: 200%;
+  top: 2150px;
   left: 0;
   position: absolute;
   z-index: 99;
 }
 
 .left2-feature {
-  top: 335%;
+  top: 3600px;
   left: 0;
   position: absolute;
   z-index: 99;
 }
 
 .right1-feature {
-  top: 260%;
+  top: 2850px;
   right: 0;
   position: absolute;
   z-index: 99;

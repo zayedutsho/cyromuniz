@@ -31,6 +31,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("./fonts/gilroyNew/Gilroy-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 .nav__class {
   display: flex;
   align-items: center;
@@ -42,6 +49,15 @@
 .nav__class a {
   text-decoration: none;
   color: #1f2a37;
+}
+
+.nav__class .items__class a:hover,
+.nav__class .items__class a:focus {
+  font-family: Gilroy-ExtraBold;
+}
+
+.nav__class .items__class .nav-link.selected {
+  font-family: Gilroy-ExtraBold !important;
 }
 
 .logo__class {
@@ -389,6 +405,10 @@
   background-color: #045e5e !important;
   height: 770px;
   position: relative;
+  background-image: url("./asset/bg-home.png");
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .collaborate__class img {
@@ -399,6 +419,93 @@
 
 .collaborate__class h2 {
   background-color: #045e5e;
+  position: absolute;
+  margin-top: 178px;
+  margin-left: 134px;
+  font-size: 18px;
+  font-family: Gilroy-Regular;
+  color: #f59a74;
+}
+
+.collaborate__class h1 {
+  position: absolute;
+  background-color: #045e5e;
+  margin-top: 210px;
+  margin-left: 134px;
+  font-size: 48px;
+  font-family: Gilroy-Bold;
+  color: #ffffff;
+}
+
+.collaborate__class h3 {
+  position: absolute;
+  background-color: #045e5e;
+  font-family: Gilroy-Regular;
+  color: #9dc9c9;
+  line-height: 28px;
+  margin-top: 360px;
+  margin-left: 134px;
+}
+
+.heroo__btn {
+  display: flex;
+  position: absolute;
+  margin-top: 480px;
+  margin-left: 134px;
+  background-color: #045e5e;
+}
+
+.heroo__btn button {
+  background-color: #ffffff;
+  color: #045e5e;
+}
+
+.seee__pricing {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  background-color: #045e5e;
+}
+
+.seee__pricing h1 {
+  font-size: 18px;
+  font-family: Gilroy-Bold;
+}
+
+.tick__class img {
+  background-color: #045e5e;
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  margin-top: 580px;
+  margin-left: 134px;
+}
+
+.tick__class h3 {
+  position: absolute;
+  left: 0;
+  margin-top: 580px;
+  margin-left: 170px;
+  font-size: 18px;
+  font-family: Gilroy-Medium;
+}
+
+.calculate h2 {
+  position: absolute;
+  margin-top: 505px;
+  margin-left: 420px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Gilroy-Bold;
+}
+
+.calculate img {
+  background-color: #045e5e;
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  margin-top: 504px;
+  margin-left: 540px;
 }
 
 .news__class {
@@ -445,6 +552,10 @@
   display: flex;
   align-items: center;
   gap: 32px;
+}
+
+.news__images h2 {
+  text-wrap: wrap;
 }
 
 .update__class {

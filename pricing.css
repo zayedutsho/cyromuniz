@@ -16,6 +16,15 @@
   color: #1f2a37;
 }
 
+.nav__class .items__class a:hover,
+.nav__class .items__class a:focus {
+  font-family: Gilroy-ExtraBold;
+}
+
+.nav__class .items__class .nav-link.selected {
+  font-family: Gilroy-ExtraBold !important;
+}
+
 .logo__class {
   display: flex;
   align-items: center;
@@ -62,7 +71,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 82px;
-  margin-bottom: 50px
+  margin-bottom: 50px;
 }
 
 .p-month p {
@@ -78,34 +87,35 @@
 
 @font-face {
   font-family: "Gilroy-Regular";
-  src: url("../fonts/gilroy/Gilroy-Regular.ttf") format("truetype");
+  src: url("./fonts/gilroyNew/Gilroy-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Gilroy-Medium";
-  src: url("../fonts/gilroyNew/Gilroy-Medium.ttf") format("truetype");
+  src: url("./fonts/gilroyNew/Gilroy-Medium.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Gilroy-Semibold";
-  src: url("../fonts/gilroyNew/Gilroy-SemiBold.ttf") format("truetype");
+  src: url("./fonts/gilroyNew/Gilroy-SemiBold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Gilroy-Bold";
-  src: url("../fonts/gilroyNew/Gilroy-Bold.ttf") format("truetype");
+  src: url("./fonts/gilroyNew/Gilroy-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
-  font-family: "Gilroy-Regular";
-  src: url("./fonts/gilroyNew/Gilroy-Regular.ttf") format("truetype");
+  font-family: "Gilroy-ExtraBold";
+  src: url("./fonts/gilroyNew/Gilroy-ExtraBold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -126,6 +136,7 @@
   font-size: 16px;
   color: gray;
   margin-top: 24px;
+  line-height: 28px;
 }
 
 /* 
