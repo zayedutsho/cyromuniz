@@ -114,10 +114,11 @@
   font-family: Gilroy-Regular;
 }
 
-.hero__sub-title h1 {
+.hero__sub-title p {
   font-size: 20px;
   line-height: 32px;
   color: #777e90;
+  font-family: Gilroy-Regular;
 }
 
 .hero-image__class {
@@ -218,7 +219,7 @@
   font-family: Gilroy-Bold;
 }
 
-.card__text h2 {
+.card__text p {
   font-size: 16px;
   text-align: center;
   color: #6b7280;
@@ -305,7 +306,7 @@
   background-color: #f9fafb;
 }
 
-.long-card-info h2 {
+.long-card-info p {
   font-size: 16px;
   text-align: left;
   color: #777e90;
@@ -359,7 +360,7 @@
   font-family: Gilroy-Bold;
 }
 
-.purpose__class h3 {
+.purpose__class p {
   font-size: 16px;
   margin-top: 16px;
   color: #777e90;
@@ -400,6 +401,14 @@
   background-color: #ffffff;
   font-family: Gilroy-Bold;
 }
+demand__class p {
+  color: var(--Neutrals-4, #777e90);
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
 
 .collaborate__class {
   background-color: #045e5e !important;
@@ -417,7 +426,7 @@
   right: 0;
 }
 
-.collaborate__class h2 {
+.cant p {
   background-color: #045e5e;
   position: absolute;
   margin-top: 178px;
@@ -437,7 +446,7 @@
   color: #ffffff;
 }
 
-.collaborate__class h3 {
+.collaborate__class p {
   position: absolute;
   background-color: #045e5e;
   font-family: Gilroy-Regular;
@@ -528,7 +537,7 @@
   margin-top: 12px;
 }
 
-.news__class h3 {
+.news__class p {
   font-family: Gilroy-Regular;
   margin-top: 24px;
   color: #6b7280;
@@ -546,6 +555,16 @@
 
 .date__class img {
   margin-top: 24px;
+}
+.date__class p {
+  color: #6b7280;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
 }
 
 .news__images {
