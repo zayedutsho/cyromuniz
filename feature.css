@@ -1,6 +1,5 @@
 * {
   margin: 0px;
-  background-color: #f7f7f7;
 }
 
 @font-face {
@@ -152,6 +151,9 @@
   margin-top: 120px;
   text-align: left;
 }
+.com__feature div {
+  background-color: none;
+}
 
 .com__feature h1 {
   font-size: 48px;
@@ -199,6 +201,7 @@
   cursor: pointer;
   position: relative;
   z-index: 100;
+  background-color: white;
 }
 
 .view__more {
@@ -263,10 +266,11 @@
 
 .avatar h5 {
   text-align: center;
-  font-family: Gilroy-Medium;
+  font-family: Gilroy-Regular;
   font-size: 15px;
   color: #777e90;
   background-color: #ffffff;
+  margin-top: 5px;
 }
 
 .avatar img {
@@ -349,7 +353,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f7f7f7;
   margin-top: 200px;
   margin-left: -520px;
 }
@@ -372,7 +375,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   margin-top: 50px;
   margin-left: 80px;
 }

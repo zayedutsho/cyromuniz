@@ -313,6 +313,7 @@
   margin-top: 24px;
   background-color: #f9fafb;
   font-family: Gilroy-Regular;
+  line-height: 28px;
 }
 
 .long-card-info h3 {
@@ -532,7 +533,7 @@ demand__class p {
 }
 
 .news__class h2 {
-  font-size: 21px;
+  font-size: 19px;
   color: #1f2a37;
   font-family: Gilroy-Bold;
   margin-top: 12px;
