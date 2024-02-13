@@ -1,5 +1,6 @@
 * {
   margin: 0px;
+  background-color: #f7f7f7;
 }
 
 @font-face {
@@ -161,6 +162,7 @@
   margin-right: 200px;
   position: relative;
   z-index: 100;
+  background-color: transparent;
 }
 
 .com__feature p {
@@ -172,6 +174,7 @@
   text-align: left;
   position: relative;
   z-index: 100;
+  background-color: transparent;
 }
 
 .info__class {
@@ -181,6 +184,7 @@
   margin-top: 25px;
   position: relative;
   z-index: 100;
+  background-color: transparent;
 }
 
 .info__class h2 {
@@ -188,6 +192,7 @@
   font-size: 18px;
   position: relative;
   z-index: 100;
+  background-color: transparent;
 }
 
 .com__feature button {
