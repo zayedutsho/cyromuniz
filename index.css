@@ -794,7 +794,6 @@
     margin-top: 64px;
     margin-bottom: 24px;
     text-align: center;
-    padding: 16px;
   }
 
   .ai__btn__mobile {
@@ -830,12 +829,29 @@
     font-family: Gilroy-Bold;
   }
 
+  .ai__btn__mobile {
+    padding: 0px 16px;
+  }
+
+  .long__card-container {
+    overflow-x: auto;
+    -ms-overflow-style: none;
+  }
+
+  .long__card-container::-webkit-scrollbar {
+    display: none;
+  }
+
   .long__card {
     margin-top: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
+  }
+
+  .long-card-info h1 {
+    font-size: 27px;
   }
 
   .p__mobile {
