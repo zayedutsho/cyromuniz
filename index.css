@@ -369,6 +369,10 @@
   font-family: Gilroy-Regular;
 }
 
+.sp {
+  margin-bottom: -40px;
+}
+
 .number__class {
   display: flex;
   gap: 32px;
@@ -387,7 +391,7 @@
 .number__class-2 {
   display: flex;
   gap: 32px;
-  margin-top: 25px;
+  margin-top: 55px;
   background-color: #ffffff;
 }
 
@@ -877,6 +881,10 @@
 
   .h__mobile {
     display: block;
+  }
+
+  .sp {
+    margin-bottom: 0px;
   }
 
   .purpose__class .h__mobile {
