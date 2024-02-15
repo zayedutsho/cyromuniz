@@ -747,12 +747,7 @@
 
   .brand__class div {
     display: inline-block;
-    padding: 0 20px;
     animation: marquee 5s linear infinite;
-  }
-
-  .brand__class img {
-    margin-right: 10px;
   }
 
   @keyframes marquee {
