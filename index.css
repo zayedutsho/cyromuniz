@@ -644,7 +644,8 @@
 .p__mobile,
 .purpose__image,
 .collaborate__class__mobile,
-.news__images__mobile {
+.news__images__mobile,
+.cards__class__mobile {
   display: none;
 }
 
@@ -658,7 +659,8 @@
   .h__,
   .p__,
   .collaborate__class,
-  .news__images {
+  .news__images,
+  .reliable__class .cards__class {
     display: none;
   }
 
@@ -772,22 +774,6 @@
 
   .hero__left {
     padding: 0px 0px;
-  }
-
-  .cards__class {
-    overflow-x: auto;
-    white-space: nowrap;
-    -ms-overflow-style: none;
-    margin-top: 32px;
-    gap: 16px;
-  }
-
-  .card__1:last-child {
-    margin-right: 16px;
-  }
-
-  .cards__class::-webkit-scrollbar {
-    display: none;
   }
 
   .ai__class {
@@ -1027,6 +1013,33 @@
 
   .news__images__mobile {
     display: block;
+  }
+
+  .cards__class__mobile {
+    align-items: stretch;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+  }
+
+  .card__1 {
+    margin-bottom: 2rem;
+    border: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+
+  .card__1:last-child {
+    margin-right: 16px;
+  }
+
+  .cards__class__mobile::-webkit-scrollbar {
+    display: none;
   }
 
   .news__images__mobile {
