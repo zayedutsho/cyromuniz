@@ -260,7 +260,7 @@
 }
 
 .modal-content::-webkit-scrollbar-track {
-  background-color: transparent; /* Remove the background */
+  background-color: transparent !important; /* Remove the background */
   width: 120px;
 }
 
