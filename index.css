@@ -1012,6 +1012,7 @@
 
   .news__class {
     padding: 40px 16px;
+    overflow: hidden;
   }
 
   .news__class h1 {
@@ -1026,6 +1027,36 @@
 
   .news__images__mobile {
     display: block;
+  }
+
+  .news__images__mobile {
+    align-items: stretch;
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+  }
+
+  .card__1__mobile {
+    width: 85%;
+    margin-bottom: 2rem;
+    border: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+
+  .card__1__mobile h2 {
+    font-size: 21px;
+    font-family: Gilroy-bold;
+    line-height: 32px;
+    color: #1f2a37;
+  }
+
+  .news__images__mobile::-webkit-scrollbar {
+    display: none;
   }
 
   .update__class {
