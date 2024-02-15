@@ -786,6 +786,7 @@
 
   .ai__btn__mobile {
     display: block;
+    margin-bottom: 40px;
   }
 
   .ai__btn__mobile .get-a-quote__class {
@@ -1092,7 +1093,6 @@
 
   .long__card__1 {
     width: 85%;
-    margin-bottom: 2rem;
     border: 0;
     flex-grow: 0;
     flex-shrink: 0;
