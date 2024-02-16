@@ -460,9 +460,11 @@ input[type="text"][placeholder="Additional Text Input"] {
   }
   .form-grid {
     grid-template-columns: 1fr;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
   }
   .input-container {
-    margin-left: 15px;
+    margin-left: 0px;
   }
   .map1 {
     display: none;
@@ -474,6 +476,8 @@ input[type="text"][placeholder="Additional Text Input"] {
   .terms-checkbox {
     display: block;
     padding: 0px 16px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
   }
 
   .terms-checkbox span {
