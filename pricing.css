@@ -677,7 +677,8 @@
   .c-container,
   .futter-des,
   .t__image,
-  .other-container {
+  .other-container,
+  .trusted-container {
     display: none;
   }
 
@@ -804,6 +805,7 @@
   }
   .futter-container {
     margin-left: 15px;
+    margin-top: 100px;
   }
   .futter h1 {
     color: #1f2a37;
