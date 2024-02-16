@@ -476,7 +476,10 @@ input[type="text"][placeholder="Additional Text Input"] {
     padding: 0px 16px;
   }
 
- 
+  .terms-checkbox span {
+    font-family: Gilroy-Regular;
+    text-align: left;
+  }
 
   .input-container input {
     width: 100%;
