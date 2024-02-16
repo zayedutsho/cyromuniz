@@ -1209,4 +1209,8 @@
   .mobile__item p {
     font-family: Gilroy-Medium;
   }
+
+  .dot__img {
+    margin-bottom: 25px;
+  }
 }
