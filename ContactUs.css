@@ -359,7 +359,6 @@ input[type="text"][placeholder="Additional Text Input"] {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 130%; /* 20.8px */
 }
 .terms-checkbox button {
   padding: 15px 42px;
@@ -378,6 +377,13 @@ input[type="text"][placeholder="Additional Text Input"] {
   margin-bottom: 48px;
 }
 
+.map2,
+.p__mobile,
+.update__class,
+.nav__mobile {
+  display: none;
+}
+
 @media screen and (max-width: 767px) {
   .nav__class,
   .btn__try-free,
@@ -390,41 +396,67 @@ input[type="text"][placeholder="Additional Text Input"] {
   .collaborate__class,
   .news__images,
   .reliable__class .cards__class,
-  .long__card-container {
+  .long__card-container,
+  .p__,
+  .terms-checkbox {
     display: none;
   }
+
+  .p__mobile {
+    display: block;
+  }
+
+  .Contact-container {
+    padding-top: 80px;
+  }
+
   .contactDes h1 {
     font-size: 40px;
   }
   .contactDes p {
     font-size: 16px;
   }
+
+  .info-container {
+    padding-top: 66px;
+  }
+
+  .info-des h3 {
+    margin-top: 24px;
+  }
+
   .info-sub {
     display: flex;
     flex-direction: column;
   }
   .product-container h1 {
     font-size: 40px;
+    margin-top: 64px;
+    line-height: 50px;
   }
   .grid-container {
     grid-template-columns: 1fr;
-    margin-left: 15px;
-    margin-right: 15px;
   }
   .product-container {
     margin-left: 15px;
     margin-right: 15px;
   }
   .card2-container {
-    margin-left: 15px;
-    margin-right: 15px;
+    padding: 16px;
+    margin-top: 32px;
   }
   .grid-item {
-    width: 398px;
-    height: 252px;
+    width: 100%;
+    height: 100%;
   }
+
+  .need-container {
+    margin-top: 64px;
+  }
+
   .need-des h1 {
     font-size: 40px;
+    line-height: 50px;
   }
   .form-grid {
     grid-template-columns: 1fr;
@@ -436,11 +468,16 @@ input[type="text"][placeholder="Additional Text Input"] {
     display: none;
   }
   .map2 {
+    display: block;
     width: 100%;
   }
   .terms-checkbox {
-    display: inline-block;
+    display: block;
+    padding: 0px 16px;
   }
+
+ 
+
   .input-container input {
     width: 100%;
   }
@@ -454,5 +491,84 @@ input[type="text"][placeholder="Additional Text Input"] {
   }
   .terms-checkbox button {
     width: 100%;
+  }
+
+  .update__class {
+    display: block;
+    padding: 0px 16px;
+    margin-top: 24px;
+  }
+
+  .update__class h1 {
+    font-size: 32px;
+    color: #1f2a37;
+    font-family: Gilroy-Bold;
+    margin-top: 40px;
+  }
+
+  .update__class p {
+    color: #777e90;
+    font-family: Gilroy-Regular;
+    margin-top: 16px;
+    line-height: 28px;
+  }
+
+  .update__class-info {
+    text-align: center;
+  }
+
+  .input__class {
+    margin-top: 40px;
+    margin-bottom: 24px;
+    padding: 7px 7px 7px 7px;
+    width: 100%;
+    height: 55px;
+    border: none;
+    border-radius: 100px;
+    background-color: #ffffff;
+    font-family: Gilroy-Regular;
+  }
+
+  .btn__update {
+    position: absolute;
+    right: 10px;
+    top: 57%;
+    transform: translateY(-52%);
+    border: none;
+    background-color: #045e5e;
+    color: #ffffff;
+    padding: 15px 15px;
+    border-radius: 100px;
+    font-size: 17px;
+    font-family: Gilroy-Semibold;
+    cursor: pointer;
+    width: 133px;
+  }
+
+  .nav__mobile {
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav__mobile a {
+    text-decoration: none;
+    color: #1f2a37;
+  }
+
+  .mobile__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-direction: column;
+  }
+
+  .mobile__item:hover {
+    color: #045e5e;
+  }
+
+  .mobile__item p {
+    font-family: Gilroy-Medium;
   }
 }
