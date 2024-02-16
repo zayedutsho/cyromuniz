@@ -793,7 +793,7 @@
     margin-bottom: 40px;
   }
   .Frequently {
-    color: #045e5e;
+    color: #045e5e !important;
     font-family: Gilroy-SemiBold;
     font-size: 16px;
     font-style: normal;
