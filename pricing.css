@@ -607,6 +607,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 150px;
 }
 
 .update__class h1 {
@@ -869,6 +870,7 @@
     display: block;
     padding: 0px 16px;
     margin-top: 24px;
+    margin-top: 64px;
   }
 
   .update__class h1 {
