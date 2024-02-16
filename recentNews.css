@@ -326,3 +326,44 @@
   margin-top: 40px;
   background-color: #ffffff;
 }
+.blog2 {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .nav__class,
+  .btn__try-free,
+  .hero-image__class,
+  .purposeImage__class,
+  .hero__sub-title,
+  .ai__btn,
+  .h__,
+  .p__,
+  .collaborate__class,
+  .news__images,
+  .reliable__class .cards__class,
+  .long__card-container {
+    display: none;
+  }
+  .feature__class h1 {
+    font-size: 40px;
+  }
+  .feature__class p {
+    font-size: 16px;
+  }
+  .cards__class {
+    display: inline-block;
+  }
+  .card__1 button {
+    width: 100%;
+  }
+  .card__class {
+    padding: 16px;
+  }
+  .blog1 {
+    display: none;
+  }
+  .blog2 {
+    width: 100%;
+  }
+}
