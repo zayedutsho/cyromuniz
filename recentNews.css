@@ -330,7 +330,8 @@
 
 .p__mobile,
 .nav__mobile,
-.h__mobile {
+.h__mobile,
+.img__mobile {
   display: none;
 }
 
@@ -338,7 +339,8 @@
   .nav__class,
   .h__,
   .p__,
-  .btn__try-free {
+  .btn__try-free,
+  .img__desk {
     display: none;
   }
 
@@ -390,6 +392,25 @@
     font-size: 18px;
     background-color: #ffffff;
     cursor: pointer;
+  }
+
+  .modal-content {
+    background-color: #ffffff;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border: 1px solid #888;
+    width: 70%;
+    max-height: 800px;
+    overflow-y: scroll;
+    border-radius: 30px;
+  }
+
+  .modal-content .img__mobile {
+    display: block;
+    width: 100%;
   }
 
   .update__class {
