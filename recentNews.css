@@ -185,6 +185,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 150px;
 }
 
 .update__class h1 {
@@ -325,4 +326,149 @@
 .modal-content img {
   margin-top: 40px;
   background-color: #ffffff;
+}
+
+.p__mobile,
+.nav__mobile,
+.h__mobile {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .nav__class,
+  .h__,
+  .p__,
+  .btn__try-free {
+    display: none;
+  }
+
+  .h__mobile,
+  .p__mobile {
+    display: block;
+  }
+
+  .feature__class {
+    margin-top: 80px;
+  }
+
+  .feature__class h1 {
+    font-size: 40px;
+  }
+
+  .feature__class h2 {
+    font-size: 20px;
+    color: #045e5e;
+    font-family: Gilroy-Semibold;
+  }
+
+  .cards__class {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 40px;
+  }
+
+  .card__class {
+    margin-top: 16px;
+    border-radius: 0px;
+  }
+
+  .card__class img {
+    width: 100%;
+  }
+
+  .card__1 button {
+    margin-top: 16px;
+    padding: 12px 10px;
+    border: 1px solid #045e5e;
+    border-radius: 100px;
+    text-align: center;
+    width: 100%;
+    font-family: Gilroy-Bold;
+    color: #045e5e;
+    font-size: 18px;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+
+  .update__class {
+    display: block;
+    padding: 0px 16px;
+    margin-top: 64px;
+  }
+
+  .update__class h1 {
+    font-size: 32px;
+    color: #1f2a37;
+    font-family: Gilroy-Bold;
+    margin-top: 40px;
+  }
+
+  .update__class p {
+    color: #777e90;
+    font-family: Gilroy-Regular;
+    margin-top: 16px;
+    line-height: 28px;
+  }
+
+  .update__class-info {
+    text-align: center;
+  }
+
+  .input__class {
+    margin-top: 40px;
+    margin-bottom: 24px;
+    padding: 7px 7px 7px 7px;
+    width: 96%;
+    height: 55px;
+    border: none;
+    border-radius: 100px;
+    background-color: #ffffff;
+    font-family: Gilroy-Regular;
+  }
+
+  .btn__update {
+    position: absolute;
+    right: 10px;
+    top: 57%;
+    transform: translateY(-52%);
+    border: none;
+    background-color: #045e5e;
+    color: #ffffff;
+    padding: 15px 15px;
+    border-radius: 100px;
+    font-size: 17px;
+    font-family: Gilroy-Semibold;
+    cursor: pointer;
+    width: 133px;
+  }
+
+  .nav__mobile {
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav__mobile a {
+    text-decoration: none;
+    color: #1f2a37;
+  }
+
+  .mobile__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-direction: column;
+  }
+
+  .mobile__item:hover {
+    color: #045e5e;
+  }
+
+  .mobile__item p {
+    font-family: Gilroy-Medium;
+    margin-top: 0px;
+  }
 }
