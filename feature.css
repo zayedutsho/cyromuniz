@@ -44,6 +44,8 @@
   justify-content: space-between;
   padding: 25px 135px;
   position: sticky;
+  top: 0;
+  z-index: 101;
 }
 
 .nav__class a {
@@ -84,8 +86,8 @@
   border: none;
   font-size: 18px;
   cursor: pointer;
-  position: absolute;
-  z-index: 101;
+  position: fixed;
+  z-index: 102;
   top: 0;
   right: 0;
   margin: 25px 135px;
