@@ -1189,6 +1189,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    bottom: 0;
+    z-index: 999;
   }
   .nav__mobile a {
     text-decoration: none;
