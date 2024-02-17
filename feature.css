@@ -137,6 +137,7 @@
   justify-content: center;
   gap: 4px;
   cursor: pointer;
+  background-color: #f7f7f7 !important;
 }
 
 .see__pricing h1 {
@@ -527,4 +528,209 @@
   right: 0;
   position: absolute;
   z-index: 99;
+}
+
+.h__mobile,
+.com__feature__mobile,
+.review__mobile {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .h__,
+  .left-feature,
+  .left2-feature,
+  .left1-feature,
+  .right-feature,
+  .right1-feature,
+  .com__feature_desk {
+    display: none;
+  }
+
+  .h__mobile {
+    display: block;
+    font-size: 40px !important;
+    line-height: 50px;
+  }
+
+  .feature__class {
+    margin-top: 80px;
+  }
+
+  .hero__btn {
+    display: block;
+    margin-top: 40px;
+    padding: 0px 16px;
+  }
+
+  .start__free-trial {
+    padding: 24px 56px;
+    border-radius: 100px;
+    background-color: #045e5e;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+  }
+
+  .see__pricing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+    border-radius: 100px;
+    border: 1px solid #045e5e;
+    padding: 24px 52px;
+  }
+
+  .com__feature__mobile {
+    display: block;
+    padding: 0px 16px;
+    position: relative;
+  }
+
+  .com__mobile h1 {
+    font-size: 40px;
+    font-family: Gilroy-Bold;
+    text-align: left;
+    margin-top: 88px;
+    position: relative;
+    z-index: 100;
+    background-color: transparent;
+  }
+
+  .com__mobile p {
+    text-align: left;
+    margin-top: 8px;
+    position: relative;
+    z-index: 100;
+    background-color: transparent;
+  }
+
+  .info__class img {
+    background-color: transparent;
+  }
+
+  .com__mobile button {
+    width: 100%;
+    border: 1px solid #045e5e;
+    border-radius: 100px;
+    padding: 24px;
+    font-family: Gilroy-bold;
+    color: #045e5e;
+    font-size: 18px;
+  }
+
+  .button-2 {
+    width: 100%;
+    border: none;
+    border-radius: 100px;
+    padding: 24px;
+    font-family: Gilroy-bold;
+    color: #ffffff;
+    background-color: #045e5e;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 64px;
+  }
+
+  .left__mobile {
+    top: -30px;
+    left: 0;
+    position: absolute;
+    z-index: 99;
+  }
+
+  .left__mobile-1 {
+    top: 18%;
+    left: 0;
+    position: absolute;
+    z-index: 99;
+  }
+
+  .left__mobile-2 {
+    top: 37%;
+    left: 0;
+    position: absolute;
+    z-index: 99;
+  }
+
+  .left__mobile-3 {
+    top: 56%;
+    left: 0;
+    position: absolute;
+    z-index: 99;
+  }
+
+  .left__mobile-4 {
+    top: 74.5%;
+    left: 0;
+    position: absolute;
+    z-index: 99;
+  }
+
+  .what__mobile h1 {
+    margin-top: 40px;
+    font-size: 40px;
+  }
+
+  .review__mobile {
+    display: block;
+    padding: 0px 16px;
+  }
+
+  .review__mobile__card {
+    padding: 40px;
+    text-align: center;
+    border: 1px solid #e7e9ed;
+    margin-top: 40px;
+    border-radius: 24px;
+  }
+
+  .review__mobile__card img {
+    width: 72px;
+  }
+
+  .review__mobile__card h5 {
+    font-size: 24px;
+    margin-top: 24px;
+    font-family: Gilroy-Bold;
+  }
+
+  .review__mobile__card span {
+    font-size: 17px;
+    font-family: Gilroy-Bold;
+  }
+
+  .review__mobile__card span {
+    font-size: 15px;
+    font-family: Gilroy-Medium !important;
+  }
+
+  .review__mobile {
+    align-items: stretch;
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+  }
+
+  .review__mobile__card {
+    width: 85%;
+    margin-bottom: 2rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+
+  .review__mobile::-webkit-scrollbar {
+    display: none;
+  }
+
+  .futter-container {
+    margin-top: 64px !important;
+  }
 }
