@@ -603,6 +603,12 @@
     background-color: transparent;
   }
 
+  .nav__mobile {
+    position: sticky;
+    bottom: 0;
+    z-index: 102;
+  }
+
   .com__mobile p {
     text-align: left;
     margin-top: 8px;
