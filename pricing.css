@@ -1057,3 +1057,60 @@
     display: none;
   }
 }
+
+@media screen and (min-width: 901px) and (max-width: 1700px) {
+  .nav__class {
+    padding: 20px 25px;
+    z-index: 100;
+  }
+
+  .logo__class {
+    gap: 30px;
+  }
+
+  .logo__class img {
+    width: 170px;
+  }
+
+  .items__class {
+    gap: 30px;
+    font-size: 14px;
+  }
+
+  .btn__try-free {
+    margin: 25px 45px;
+    font-size: 16px;
+    padding: 13px 40px;
+  }
+
+  .trusted h1 {
+    font-size: 40px;
+  }
+
+  .other-container {
+    gap: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 150px;
+  }
+
+  .grid-container {
+    gap: 20px;
+  }
+
+  .other h1 {
+    font-size: 30px;
+  }
+
+  .accordion-main {
+    margin-top: 50px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+
+  .futter-container {
+    margin-left: 0px !important;
+    margin-right: 280px;
+    text-align: left;
+  }
+}

@@ -332,7 +332,8 @@
 .p__mobile,
 .nav__mobile,
 .h__mobile,
-.img__mobile {
+.img__mobile,
+.cards__class__md {
   display: none;
 }
 
@@ -341,7 +342,8 @@
   .h__,
   .p__,
   .btn__try-free,
-  .img__desk {
+  .img__desk,
+  .cards__class__md {
     display: none;
   }
 
@@ -494,5 +496,48 @@
   .mobile__item p {
     font-family: Gilroy-Medium;
     margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1700px) {
+  .nav__class {
+    padding: 20px 25px;
+    z-index: 100;
+  }
+
+  .logo__class {
+    gap: 30px;
+  }
+
+  .logo__class img {
+    width: 170px;
+  }
+
+  .items__class {
+    gap: 30px;
+    font-size: 14px;
+  }
+
+  .btn__try-free {
+    margin: 25px 45px;
+    font-size: 16px;
+    padding: 13px 40px;
+  }
+
+  .cards__class,
+  .img__desk {
+    display: none;
+  }
+
+  .cards__class__md {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 24px;
+  }
+
+  .img__mobile {
+    display: block;
   }
 }
